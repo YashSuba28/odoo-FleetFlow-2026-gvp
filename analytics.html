@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FleetFlow | Operational Analytics</title>
+  <link rel="stylesheet" href="css/analytics.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <h2>FleetFlow</h2>
+  </div>
+
+  <!-- KPI CARDS -->
+  <div class="kpi">
+    <div class="kpi-card">
+      <h4>Total Fuel Cost</h4>
+      <p>Rs. 2.6 L</p>
+    </div>
+
+    <div class="kpi-card">
+      <h4>Fleet ROI</h4>
+      <p>+12.5%</p>
+    </div>
+
+    <div class="kpi-card">
+      <h4>Utilization Rate</h4>
+      <p>82%</p>
+    </div>
+  </div>
+
+  <!-- CHARTS -->
+  <div class="charts">
+    <div class="chart-card">
+      <h4>Fuel Efficiency Trend (km/L)</h4>
+      <canvas id="fuelChart"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h4>Top 5 Costliest Vehicles</h4>
+      <canvas id="costChart"></canvas>
+    </div>
+  </div>
+
+  <!-- FINANCIAL SUMMARY -->
+  <div class="table-card">
+    <h3>Financial Summary of Month</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Revenue</th>
+          <th>Fuel Cost</th>
+          <th>Maintenance</th>
+          <th>Net Profit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Jan</td><td>Rs. 17L</td><td>Rs. 6L</td><td>Rs. 2L</td><td>Rs. 9L</td></tr>
+        <tr><td>Feb</td><td>Rs. 15L</td><td>Rs. 5L</td><td>Rs. 1.5L</td><td>Rs. 8.5L</td></tr>
+        <tr><td>Mar</td><td>Rs. 18L</td><td>Rs. 6.5L</td><td>Rs. 2.2L</td><td>Rs. 9.3L</td></tr>
+        <tr><td>Apr</td><td>Rs. 20L</td><td>Rs. 7L</td><td>Rs. 2.8L</td><td>Rs. 10.2L</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<script src="js/analytics.js"></script>
+</body>
+</html>
