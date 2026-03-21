@@ -194,4 +194,4 @@ FleetFlow is a complete fleet and logistics management solution that demonstrate
 
 ## 👨‍💻 Author
 
-Yash Suba
+Yash Suba and Aastha Thakkar
