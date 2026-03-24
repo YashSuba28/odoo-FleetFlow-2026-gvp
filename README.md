@@ -213,7 +213,3 @@ It reduces manual effort, improves accuracy, and enables **data-driven decision-
 
 ---
 
-## 👨‍💻 Author
-
-**Yash Suba**  
-**Aastha Thakkar**
